@@ -12,7 +12,7 @@ public class MessagingApiAppApplication {
 
 	@GetMapping("/")
 	public String printGreetings() {
-		return "Hi Oracle";
+		return "I'm Tanishq Kashyap's server";
 	}
 	public static void main(String[] args) {
 		SpringApplication.run(MessagingApiAppApplication.class, args);
